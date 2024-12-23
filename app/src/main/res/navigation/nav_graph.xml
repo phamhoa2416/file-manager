@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notFound"
+    >
+    <fragment
+        android:id="@+id/notFound"
+        android:name="com.example.sdmanager.NotFound"
+        android:label="NotFound">
+        <argument
+            android:name="msg"
+            app:argType="string"
+            app:nullable="false"
+            android:defaultValue="" />
+        <argument
+            android:name="returnable"
+            app:argType="boolean"
+            app:nullable="false"
+            android:defaultValue="true" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/open_root"
+            app:destination="@id/rootFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rootFragment"
+        android:name="com.example.sdmanager.RootFragment"
+        android:label="RootFragment">
+        <action
+            android:id="@+id/open_folder"
+            app:destination="@id/fileFragment" />
+        <action
+            android:id="@+id/not_found"
+            app:destination="@id/notFound" />
+    </fragment>
+    <fragment
+        android:id="@+id/fileFragment"
+        android:name="com.example.sdmanager.FileFragment"
+        android:label="FileFragment">
+        <action
+            android:id="@+id/open_folder"
+            app:destination="@id/fileFragment" />
+        <action
+            android:id="@+id/not_found"
+            app:destination="@id/notFound" />
+        <argument
+            android:name="path"
+            app:argType="string"
+            app:nullable="false"
+            android:defaultValue="" />
+    </fragment>
+</navigation>

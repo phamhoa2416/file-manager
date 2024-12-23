@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">SDManager</string>
+    <string name="file_folder_icon" translatable="false">File/Folder Icon</string>
+    <string name="filename" translatable="false">Android</string>
+    <string name="items_count">%1$d items</string>
+    <string name="items_size" translatable="false">%1$.2f %2$s</string>
+    <string name="date">December 23, 2024</string>
+    <string name="no_files_found">No files found</string>
+    <string name="granted">Storage permission granted. Please wait…</string>
+    <string name="denied">Storage permission denied. Please enable it in settings</string>
+    <string name="not_available">Storage not available</string>
+    <string name="dialog_title">Permission denied</string>
+    <string name="dialog_message">This app needs storage permission to work properly</string>
+    <string name="ok">Accept</string>
+    <string name="cancel">Deny</string>
+    <string name="error">Error loading files</string>
+    <string name="not_open">Can not open this file</string>
+    <string name="open">open</string>
+</resources>

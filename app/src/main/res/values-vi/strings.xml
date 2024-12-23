@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="items_count">%1$d mục</string>
+    <string name="date">23 tháng 12, 2024</string>
+    <string name="no_files_found">Không có tệp</string>
+    <string name="granted">Quyền truy cập được chấp nhận. Đang tải…</string>
+    <string name="denied">Quyền truy cập bị từ chối. Vui lòng kích hoạt trong phần cài đặt</string>
+    <string name="not_available">Không tìm thấy thẻ SD</string>
+    <string name="dialog_title">Quyền bị từ chối</string>
+    <string name="dialog_message">Ứng dụng này cần truy cập vào bộ nhớ để có thể hoạt động</string>
+    <string name="ok">Chấp nhận</string>
+    <string name="cancel">Từ chối</string>
+    <string name="error">Lỗi tải file</string>
+    <string name="not_open">Không thể mở tệp</string>
+    <string name="open">Mở</string>
+</resources>
